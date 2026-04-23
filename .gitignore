@@ -1,10 +1,12 @@
 # Virtual Environment
-# Ignore everything in the venv folder except the .gitignore file itself
-*
-
-# But keep these specific files/folders
-!.gitignore
+# Ignore venv folders but keep specific files
+Include/
+Lib/
+Scripts/
 !Scripts/tool_call.py
+
+# Keep these specific files
+!.gitignore
 !pyvenv.cfg
 
 # Common Python ignores
