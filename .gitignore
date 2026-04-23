@@ -1,0 +1,57 @@
+# Virtual Environment
+# Ignore everything in the venv folder except the .gitignore file itself
+*
+
+# But keep these specific files/folders
+!.gitignore
+!Scripts/tool_call.py
+!pyvenv.cfg
+
+# Common Python ignores
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environment specific
+Include/
+Lib/
+Scripts/activate
+Scripts/activate.bat
+Scripts/activate.ps1
+Scripts/deactivate.bat
+Scripts/pip*
+Scripts/python*
+Scripts/pythonw*
+Scripts/*.exe
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
